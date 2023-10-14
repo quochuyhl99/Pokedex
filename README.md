@@ -19,8 +19,10 @@ It leverages the following components from the Jetpack library:
 
 # Setting up the Repository
 To get started with this project, simply pull the repository and import the project into Android Studio. From there, deploy the project to an emulator or device.
-The project use free API from: https://pokeapi.co/
-No need to get API key. For more detail please visit to: https://pokeapi.co/docs/v2#pokemon
+
+Note:
+- The project use free API from: https://pokeapi.co.
+- No need to get API key. For more detail please visit to: https://pokeapi.co/docs/v2#pokemon
 
 # Pokedex App Design Document
 
@@ -67,6 +69,7 @@ Navigation between fragments is implemented using the Navigation component to na
 ## Data Fetching and Storage
 
 The project use free API from: https://pokeapi.co/
+
 No need to get API key. For more detail please visit to: https://pokeapi.co/docs/v2#pokemon
 
 Retrofit and Moshi are used to fetch Pokemon data from the PokeAPI to show data in the "Search Pokemon" fragment.
